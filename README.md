@@ -22,7 +22,7 @@ That failure mode is not the agent's fault. It's the design system's. If the sys
 
 This repo would not exist without two people:
 
-- **Nathan Curtis — [Specs](https://specs.eightshapes.com/)** (EightShapes Figma plugin). Specs makes design *tokens* legible to AI agents — structured YAML token references embedded in component frames. Kaelig's pipeline names it the most reliable token source it ever found. `component-md` is the component-layer companion to what Specs does at the token layer. Tokens without component context produce styled-but-wrong UI; component context without tokens produces unstyled UI. You need both.
+- **Nathan Curtis — [Specs]([https://specs.eightshapes.com/](https://specsplugin.com/))** (EightShapes Figma plugin). Specs makes design *tokens* legible to AI agents — structured YAML token references embedded in component frames. Kaelig's pipeline names it the most reliable token source it ever found. `component-md` is the component-layer companion to what Specs does at the token layer. Tokens without component context produce styled-but-wrong UI; component context without tokens produces unstyled UI. You need both.
 
 - **Ian Guisard — [uSpec / Component.md](https://uspec.design)** ([github.com/redongreen/uSpec](https://github.com/redongreen/uSpec)). The five-slice schema and the extraction-then-reasoning workflow are based directly on Ian's Component.md methodology, published April 2026. If you want the canonical Figma plugin and the original spec, go there. This repo is an opinionated, deployment-ready distillation aimed at design system teams shipping AI handoff in production — not a replacement.
 
